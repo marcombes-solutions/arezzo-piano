@@ -1,4 +1,4 @@
-/* @todo Minify later */
+/* TODO Minify later */
 
 body {
   overflow-x: hidden;
@@ -50,9 +50,13 @@ h6 {
   font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
 }
 
+section {
+  padding: 50px 0
+}
+
 @media (min-width:768px) {
   section {
-      padding: 150px 0
+      padding: 75px 0
   }
 }
 
@@ -83,9 +87,13 @@ img::-moz-selection {
   font-weight: 700
 }
 
+.btn-md {
+  padding: 10px 30px
+}
+
 .btn-xl {
   font-size: 18px;
-  padding: 20px 40px
+  padding: 15px 40px
 }
 
 .btn-primary {
@@ -147,7 +155,7 @@ img::-moz-selection {
   color: #fed136
 }
 
-@media (min-width:992px) {
+@media (min-width:768px) {
   #mainNav {
       padding-top: 25px;
       padding-bottom: 25px;
@@ -189,7 +197,7 @@ header.masthead .intro-text {
 }
 
 header.masthead .intro-text .intro-lead-in {
-  font-size: 30px;
+  font-size: 40px;
   font-style: italic;
   line-height: 22px;
   margin-bottom: 25px;
@@ -197,10 +205,18 @@ header.masthead .intro-text .intro-lead-in {
 }
 
 header.masthead .intro-text .intro-heading {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 700;
   line-height: 50px;
   margin-bottom: 25px;
+  font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
+}
+
+header.masthead .intro-text .intro-subheading {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 50px;
+  margin-top: 120px;
   font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
 }
 
@@ -211,7 +227,7 @@ header.masthead .intro-text .intro-btn {
 
 @media (min-width:768px) {
   header.masthead .intro-text {
-      padding-top: 150px;
+      padding-top: 130px;
       padding-bottom: 100px
   }
   header.masthead .intro-text .intro-lead-in {
@@ -222,13 +238,21 @@ header.masthead .intro-text .intro-btn {
       font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
   }
   header.masthead .intro-text .intro-heading {
-      font-size: 40px;
+      font-size: 35px;
       font-weight: 600;
       line-height: 75px;
       margin-bottom: 50px;
       font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
   }
 
+  header.masthead .intro-text .intro-subheading {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-top: 120px;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
+  }
+  
   header.masthead .intro-text .intro-btn {
     padding-top: 150px;
     padding-bottom: 20px
@@ -245,152 +269,6 @@ header.masthead .intro-text .intro-btn {
   margin: 15px 0;
   text-transform: none;
   color: #fff;
-}
-
-#portfolio .portfolio-item {
-  right: 0;
-  margin: 0 0 15px
-}
-
-#portfolio .portfolio-item .portfolio-link {
-  position: relative;
-  display: block;
-  max-width: 400px;
-  margin: 0 auto;
-  cursor: pointer
-}
-
-#portfolio .portfolio-item .portfolio-link .portfolio-hover {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  transition: all ease .5s;
-  opacity: 0;
-  background: rgba(254, 209, 54, .9)
-}
-
-#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
-  opacity: 1
-}
-
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  height: 20px;
-  margin-top: -12px;
-  text-align: center;
-  color: #fff
-}
-
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
-  margin-top: -12px
-}
-
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
-  margin: 0
-}
-
-#portfolio .portfolio-item .portfolio-caption {
-  max-width: 400px;
-  margin: 0 auto;
-  padding: 25px;
-  text-align: center;
-  background-color: #fff
-}
-
-#portfolio .portfolio-item .portfolio-caption h4 {
-  margin: 0;
-  text-transform: none
-}
-
-#portfolio .portfolio-item .portfolio-caption p {
-  font-size: 16px;
-  font-style: italic;
-  margin: 0;
-  font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
-}
-
-#portfolio * {
-  z-index: 2
-}
-
-@media (min-width:767px) {
-  #portfolio .portfolio-item {
-      margin: 0 0 30px
-  }
-}
-
-.portfolio-modal .modal-dialog {
-  margin: 1rem;
-  max-width: 100vw
-}
-
-.portfolio-modal .modal-content {
-  padding: 100px 0;
-  text-align: center
-}
-
-.portfolio-modal .modal-content h2 {
-  font-size: 3em;
-  margin-bottom: 15px
-}
-
-.portfolio-modal .modal-content p {
-  margin-bottom: 30px
-}
-
-.portfolio-modal .modal-content p.item-intro {
-  font-size: 16px;
-  font-style: italic;
-  margin: 20px 0 30px;
-  font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
-}
-
-.portfolio-modal .modal-content ul.list-inline {
-  margin-top: 0;
-  margin-bottom: 30px
-}
-
-.portfolio-modal .modal-content img {
-  margin-bottom: 30px
-}
-
-.portfolio-modal .modal-content button {
-  cursor: pointer
-}
-
-.portfolio-modal .close-modal {
-  position: absolute;
-  top: 25px;
-  right: 25px;
-  width: 75px;
-  height: 75px;
-  cursor: pointer;
-  background-color: transparent
-}
-
-.portfolio-modal .close-modal:hover {
-  opacity: .3
-}
-
-.portfolio-modal .close-modal .lr {
-  z-index: 1051;
-  width: 1px;
-  height: 75px;
-  margin-left: 35px;
-  transform: rotate(45deg);
-  background-color: #212529
-}
-
-.portfolio-modal .close-modal .lr .rl {
-  z-index: 1052;
-  width: 1px;
-  height: 75px;
-  transform: rotate(90deg);
-  background-color: #212529
 }
 
 .timeline {
@@ -538,7 +416,7 @@ header.masthead .intro-text .intro-btn {
   }
 }
 
-@media (min-width:992px) {
+@media (min-width:768px) {
   .timeline>li {
       min-height: 150px
   }
@@ -560,7 +438,7 @@ header.masthead .intro-text .intro-btn {
   }
 }
 
-@media (min-width:1200px) {
+@media (min-width:768px) {
   .timeline>li {
       min-height: 170px
   }
@@ -716,27 +594,20 @@ ul.social-buttons li a:hover {
 }
 
 @media only screen and (min-width: 768px) {
-  /*    
-  .row {
-    display: table;
-  }*/
-  [class*="col-"] {
-      float: none;
-      width: 25%;
-      display: table-cell;
-      vertical-align: top;
-      position: relative;
-      padding-bottom: 50px;
-  }
-  p.button {
-      position: absolute;
-      bottom: 0;
-      text-align: center;
-      margin-left: auto;
-      margin-right: auto;
-      left: 0;
-      right: 0;
-  }
+  section#services p.button{
+  position: absolute; 
+  bottom: 0;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: top;
+  left: 0;
+  right: 0;
+}
+
+section#services p.text-muted{
+  padding-bottom: 50px;
+}
 }
 
 section#prices {
@@ -777,7 +648,6 @@ section#prices .card-price .euro {
   opacity: 0.6;
 }
 
-
 section#prices ul li {
   margin-bottom: 1rem;
 }
@@ -788,7 +658,7 @@ section#prices .text-muted {
 
 /* Hover Effects on Card */
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   section#prices .card:hover {
     margin-top: -.25rem;
     margin-bottom: .25rem;

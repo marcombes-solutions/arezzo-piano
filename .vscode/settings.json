@@ -1,0 +1,7 @@
+{
+    {
+        "key": "ctrl+shift+i",
+        "command": "HookyQR.beautify",
+        "when": "editorFocus"
+     }
+}

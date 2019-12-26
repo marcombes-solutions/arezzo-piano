@@ -191,6 +191,12 @@ header.masthead {
   background-size: cover
 }
 
+@supports (background-image: url("../img/header-bg.webp")) {
+  header.masthead  {
+    background-image: url(../img/header-bg.webp);
+  }
+}
+
 header.masthead .intro-text {
   padding-top: 100px;
   padding-bottom: 100px
@@ -427,6 +433,13 @@ section#contact {
   background-position: center;
   background-size: cover
 }
+
+@supports (background-image: url("../img/contact-bg.webp")) {
+  section#contact  {
+    background-image: url(../img/contact-bg.webp);
+  }
+}
+
 
 section#contact .section-heading {
   color: #fff

@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 <metadata>
-Created by FontForge 20190801 at Fri Dec 27 10:46:12 2019
+Created by FontForge 20190801 at Fri Dec 27 19:18:06 2019
  By David
 Copyright (c) Font Awesome
 </metadata>
@@ -18,8 +18,8 @@ Copyright (c) Font Awesome
     descent="-64"
     bbox="-0.857143 -64.5455 640.2 449.263"
     underline-thickness="25"
-    underline-position="-48"
-    unicode-range="U+F001-F897"
+    underline-position="-47"
+    unicode-range="U+F001-F87B"
   />
 <missing-glyph 
  />
@@ -118,5 +118,8 @@ d="M497 86q15 -6 15 -22q0 -3 -1 -5l-24 -104q-1 -5 -4.5 -9.5t-8.5 -7t-10 -2.5q-19
     <glyph glyph-name="phone-square-alt" unicode="&#xf87b;" horiz-adv-x="448" 
 d="M400 416q20 0 34 -14t14 -34v-352q0 -20 -14 -34t-34 -14h-352q-20 0 -34 14t-14 34v352q0 20 14 34t34 14h352zM384 109v3q0 10 -9 14l-70 30q-3 1 -6 1q-7 0 -12 -5l-31 -38q-31 14 -63.5 46.5t-46.5 63.5l38 31q5 5 5 12q0 3 -1 6l-30 70q-4 9 -14 9h-3l-65 -15
 q-12 -3 -12 -15q0 -120 85 -205t205 -85q12 0 15 12z" />
+    <glyph glyph-name="uniF0C9" unicode="&#xf0c9;" horiz-adv-x="448" 
+d="M16 316q-7 0 -11.5 4.5t-4.5 11.5v40q0 7 4.5 11.5t11.5 4.5h416q7 0 11.5 -4.5t4.5 -11.5v-40q0 -7 -4.5 -11.5t-11.5 -4.5h-416zM16 156q-7 0 -11.5 4.5t-4.5 11.5v40q0 7 4.5 11.5t11.5 4.5h416q7 0 11.5 -4.5t4.5 -11.5v-40q0 -7 -4.5 -11.5t-11.5 -4.5h-416zM16 -4
+q-7 0 -11.5 4.5t-4.5 11.5v40q0 7 4.5 11.5t11.5 4.5h416q7 0 11.5 -4.5t4.5 -11.5v-40q0 -7 -4.5 -11.5t-11.5 -4.5h-416z" />
   </font>
 </defs></svg>

@@ -2,3 +2,12 @@ TODO Legal Mentions
 
 TODO Confidentialité
 
+TODO Get rid of local bootstrap
+
+TODO Prune font awesome css
+
+TODO Get rid of non min css and js
+
+TODO Minify eveything
+
+TODO get rid of gulp file

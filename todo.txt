@@ -50,7 +50,7 @@ In the same way, you do not need to specify a <ul> selector if you specify a <li
 
 Here are listed the elements considered as potentially redundant: ul li, ol li, table tr, table th, body.
 
-The following files declar some useless selectors:
+The following files declare some useless selectors:
 
 https://marcombes-solutions.github.io/arezzo-piano/css/arezzo.min.css
 
@@ -71,3 +71,5 @@ https://marcombes-solutions.github.io/arezzo-piano/css/arezzo.min.css
 #mainNav .navbar-nav .nav-item .nav-link {padding: 1.1em 1em... (line 171, col 7)
 
 TODO Change links wit proper domain
+
+TODO Something not right with from button after submit

@@ -114,7 +114,7 @@ img::selection {
 
 .btn-primary:active,
 .btn-primary:focus {
-  box-shadow: 0 0 0 .2rem rgba(254, 209, 55, .5)!important
+  box-shadow: 0 0 0 .2rem #d39c06!important
 }
 
 #mainNav {
@@ -639,7 +639,7 @@ section#contact a {
  }
  
  section#contact a:hover {
-   color: #ece362
+   color: #fdba00
  }
  
 

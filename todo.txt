@@ -11,3 +11,205 @@ TODO Get rid of non min css and js
 TODO Minify eveything
 
 TODO get rid of gulp file
+
+TODO Create touch icon
+Use a memorable logo as the touch icon so your website will make a good impression as a bookmark on mobile devices.
+Hide solution
+Create your logo as a PNG image file. To support current devices the file should be available in two versions: 152x152px and 120x120px.
+Save these files and name them 'apple-touch-icon-152x152-precomposed.png' and 'apple-touch-icon-120x120-precomposed.png' respectively, then upload them to your webspace in the root directory of your website. Now insert the following code in the head area of your website:
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120-precomposed.png" /> <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152-precomposed.png" />
+
+TODO Create Sitemap
+Use a sitemap to submit all pages of your website to search engines.
+Hide solution
+A sitemap is a file that lists out the individual pages of your website. It helps Google and other search engines better understand how your website's content is structured. Search engine web crawlers like Googlebot read this file so it can scan your site more intelligently.
+Overview of tools for creating a sitemap.
+
+TODO Enhance your page title
+Your selected page title is not an optimal length at 12 characters. A page title that is too short is not descriptive enough to be effectively ranked in search results.
+Hide solution
+Write a page title using around 50-70 characters (around five to ten words).
+Paste this code into the <head> of your web page.
+<title>My page - topic 1, topic 2, topic 3 </title>
+
+TODO 2 critical dependencies detected
+The failure of a third-party content provider could bring an overall breakdown of your website.
+
+Single Point Of Failure
+A Frontend Single Point Of Failure (SPOF) is a critical dependency on a third-party content, that may block the entire display of your page in case of failure of the content provider.
+
+As an example, if your web page uses a blocking script hosted by Google’s servers, then your page is reliant on any failure from this script. Please read this blog post dedicated to SPOF for more information.
+
+How to avoid SPOF?
+As far as possible, exclude any of these dependencies, even from renowned providers. If you have to use a third-party content, ensure that you choosed an asynchronous integration and that you have a fallback in case of problem.
+
+
+We are checking if the tested web page depends (in a critical way) on some of most widespread external resources (googleapis, typekit,...). That are known as Frontend SPOF (Single Point Of Failure) cases.
+
+The following resources represent a SPOF for this page:
+
+https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap
+https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap
+
+TODO Defer parsing of JavaScript
+JavaScript can significantly slow down a page display, especially if it is necessary to download an external script.
+
+Defer the use of JavaScript as much as possible to provide a faster start for the page display.
+
+How can I fix this?
+First of all, distinguish what portions of your JS is critical and must be loaded as soon as possible, and put them in a specific external file. Keep this file as streamlined as possible, and defer the parsing or execution of all other JS files (learn more).
+
+Use one of the methods below to defer parsing for external JavaScript files:
+
+use the async attribute;
+use the defer attribute;
+append the script to the DOM in JavaScript during the onload event;
+make sure your scripts are placed at the bottom of the page (ideally at the end of the body).
+
+144.2KiB of JavaScript is parsed during initial page load. Defer parsing JavaScript to reduce blocking of page rendering.
+
+code.jquery.com/jq[...]n.js (63.0KiB)
+stackpath.bootstra[...]n.js (50.8KiB)
+cdnjs.cloudflare.c[...]n.js (18.4KiB)
+marcombes-solution[...]n.js (9.6KiB)
+marcombes-solution[...]n.js (2.4KiB)
+
+TODO Add <h1> title in your content
+We recommend putting page keywords in at least the h1 and h2 tags. Search engines use the h1, h2, and h3 tags for SEO purposes.
+This page contains:
+6 <h2> element(s)
+5 <h3> element(s)
+
+TODO The Content Security Policy is missing
+Protect you website from cross-site scripting (XSS) attacks by setting up a restrictive Content-Security-Policy.
+
+XSS attacks explained
+XSS attacks are a type of attack in which malicious data is maliciously added to websites. The number of vulnerabilities allowing these attacks is quite large, which is why it is as useful to prevent them as to limit their harmful effects.
+
+You can protect your pages against these attacks and their effects by restricting execution to code portions either legitimized by the domain to which they belong or by a unique integrity token. The code that does not corresponding to this security policy will not be executed and the user will be informed.
+
+You can learn more about XSS attacks on the Open Web Application Security Project (OWASP) Website.
+
+Configure a "Content-Security-Policy" (CSP) HTTP header
+Set up a "Content-Security-Policy" (CSP) HTTP header to prevent or limit damage caused by an XSS attack. To specify a security policy configure your server so the response of the first resource contains the "Content-Security-Policy" HTTP header.
+
+Here's an example:
+
+Content-Security-Policy: script-src 'self' https://apis.google.com
+In this case, only scripts coming from the current host or https://apis.google.com will be executed.
+
+Read more about the CSP HTTP header. You can also look at the CSP directives specification.
+
+Please, be careful, if the header is misconfigured, some of your content, scripts, or styles may be blocked. That could cause unwanted side effects. Moreover, the restrictions apply to all pages of the website. We recommend you test the different pages of your website before deploying this header in your production environment.
+
+
+No Content Security Policy on this page: it is more easily exposed to XSS attacks.
+
+TODO Set a far future cache policy in 9 requests
+
+TODO This page does not specify a breadcrumb for search engines
+The breadcrumb enables to visually enhance the results matching your website during a research. On Google, you can find it instead of the URL for example:
+
+breadcrumb example
+On a search made through a desktop device, the breadcrumb only replaces the URL if it is defined on the page.
+
+About the mobile search, Google has been consistently displaying the breadcrumb since April 2015. If you haven’t defined a breadcrumb on your website, it will be generated automatically (in particular from the URL). We advise you to make this information explicit in your source code, in order to control the display.
+
+Defining its own breadcrumb
+You must define your breadcrumb using one of the accepted implementations (see Google recommendations).
+
+<div id="a" itemscope itemtype="http://data-vocabulary.org/Breadcrumb" itemref="b">
+  <a href="http://www.example.com/mycategory" itemprop="url">
+    <span itemprop="title">My category</span>
+  </a>
+</div>
+<div id="b" itemscope itemtype="http://data-vocabulary.org/Breadcrumb" itemprop="child">
+  <a href="http://www.example.com/mycategory/myproduct" itemprop="url">
+    <span itemprop="title">My product</span>
+  </a>
+</div>
+
+On this analysed page, we couldn’t find a breadcrumb.
+
+TODO No <noscript> tag is detected
+When a web page uses scripts, it is advised to set at least one noscript tag. It is required to display a message when JavaScript is disabled by the user.
+
+<script  type="text/javascript">
+    document.write('Hello World!')
+</script>
+<noscript>Your browser does not support JavaScript!</noscript>
+
+TODO 1 CSS property is overridden
+Generally, it is unnecessary to define 2 times the same property within the same rule: the second one overrides the first.
+This may affect the readability of CSS code. Eliminate unnecessarily overridden properties also reduce the file size.
+
+How to improve it?
+Remove one occurrence of the duplicated property. For example, the following properties:
+
+.myClass {
+  margin: 20px;
+  ...
+  margin: 10px;
+}
+Should be replaced by:
+
+.myClass {
+  margin: 10px;
+}
+The following files define the same property several times in a single rule.
+Note that CSS fallbacks can justify a duplicated property.
+
+
+Make sure that the following properties are duplicated on purpose:
+
+https://marcombes-solutions.github.io/arezzo-piano/css/arezzo.min.css
+
+section#prices {backgrou[...]250, 250, 250), rgb(224, 222, 222))} (line 573, col 3)
+
+ TODO dareboost.com tester
+
+ TODO 5 selectors are superfluous
+It's often inefficient to bring too much preciseness in CSS selectors. For example, in the following rule:
+
+body div .myClass {}
+The body element provides no details to select the desired tags. So you should prefer the following selector:
+
+div .myClass {}
+In the same way, you do not need to specify a <ul> selector if you specify a <li> behind.
+
+Here are listed the elements considered as potentially redundant: ul li, ol li, table tr, table th, body.
+
+The following files declar some useless selectors:
+
+https://marcombes-solutions.github.io/arezzo-piano/css/arezzo.min.css
+
+ul.social-buttons li a (line 535, col 1)
+ul.social-buttons li a:active (line 548, col 1)
+ul.social-buttons li a:focus (line 548, col 1)
+ul.social-buttons li a:hover (line 548, col 1)
+section#prices ul li (line 609, col 1)
+
+TODO The !important declaration is used 5 times
+If you abuse of this declaration, you should consider a review of your CSS code. We tolerate 10 occurrences of the !important declaration before penalizing your score.
+
+
+Here are the !important detected:
+
+https://marcombes-solutions.github.io/arezzo-piano/css/arezzo.min.css
+
+.text-primary {color: #fed136!important} (line 21, col 3)
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover ... (line 107, col 3)
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover ... (line 108, col 3)
+.btn-primary:active, .btn-primary:focus {box-shadow: 0 0 0 .... (line 114, col 3)
+#mainNav .navbar-nav .nav-item .nav-link {padding: 1.1em 1em... (line 171, col 7)
+
+
+TODO 1 CSS selector is duplicated
+Using several times the same selector for several declarative blocks within a single CSS file can affect the readability and maintainability of the code. It is also an optimization opportunity: by grouping these elements within a single rule, you will reduce the file size and optimize the rendering times.
+
+
+You can save 19 characters. The following files define the same selector in different rules:
+
+https://marcombes-solutions.github.io/arezzo-piano/css/arezzo.min.css
+
+img::-moz-selection (2 times)

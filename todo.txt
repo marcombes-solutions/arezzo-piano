@@ -8,7 +8,7 @@ TODO Prune font awesome css
 
 TODO Get rid of non min css and js
 
-TODO Minify eveything
+TODO Minify everything
 
 TODO get rid of gulp file
 
@@ -37,28 +37,7 @@ This page contains:
 TODO Set a far future cache policy in 9 requests
 
 
- TODO dareboost.com tester
-
- TODO 5 selectors are superfluous
-It's often inefficient to bring too much preciseness in CSS selectors. For example, in the following rule:
-
-body div .myClass {}
-The body element provides no details to select the desired tags. So you should prefer the following selector:
-
-div .myClass {}
-In the same way, you do not need to specify a <ul> selector if you specify a <li> behind.
-
-Here are listed the elements considered as potentially redundant: ul li, ol li, table tr, table th, body.
-
-The following files declare some useless selectors:
-
-https://marcombes-solutions.github.io/arezzo-piano/css/arezzo.min.css
-
-ul.social-buttons li a (line 535, col 1)
-ul.social-buttons li a:active (line 548, col 1)
-ul.social-buttons li a:focus (line 548, col 1)
-ul.social-buttons li a:hover (line 548, col 1)
-section#prices ul li (line 609, col 1)
+TODO dareboost.com tester
 
 TODO The !important declaration is used 5 times
 If you abuse of this declaration, you should consider a review of your CSS code. We tolerate 10 occurrences of the !important declaration before penalizing your score.
@@ -70,6 +49,8 @@ https://marcombes-solutions.github.io/arezzo-piano/css/arezzo.min.css
 .btn-primary:active, .btn-primary:focus {box-shadow: 0 0 0 .... (line 114, col 3)
 #mainNav .navbar-nav .nav-item .nav-link {padding: 1.1em 1em... (line 171, col 7)
 
-TODO Change links wit proper domain
+TODO Change links with proper domain
 
 TODO Something not right with from button after submit
+
+TODO Debug errors showing on chrome dev tools

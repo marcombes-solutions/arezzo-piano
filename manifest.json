@@ -1,0 +1,13 @@
+{
+  "short_name": "Arezzo",
+  "name": "Arezzo Piano",
+  "icons": [
+    {
+      "src": "img/icon-196x196.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "index.html",
+  "display": "standalone"
+}

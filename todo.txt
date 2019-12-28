@@ -26,6 +26,8 @@ Submit
 
 TODO Pedef coulours using css variables
 
+TODO STHG funny with button borders when clicking
+
 TODO Add <h1> title in your content
 We recommend putting page keywords in at least the h1 and h2 tags. Search engines use the h1, h2, and h3 tags for SEO purposes.
 This page contains:
@@ -67,3 +69,5 @@ https://marcombes-solutions.github.io/arezzo-piano/css/arezzo.min.css
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover ... (line 108, col 3)
 .btn-primary:active, .btn-primary:focus {box-shadow: 0 0 0 .... (line 114, col 3)
 #mainNav .navbar-nav .nav-item .nav-link {padding: 1.1em 1em... (line 171, col 7)
+
+TODO Change links wit proper domain

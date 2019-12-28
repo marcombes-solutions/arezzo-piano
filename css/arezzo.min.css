@@ -10,18 +10,25 @@ p {
 }
 
 a {
- color: #ca8318
+ color: #fed136
 }
 
 a:hover {
-  color: #a15f14
+  color: #fdba00
 }
 
 .text-primary {
   color: #fed136!important 
 }
 
-h1,
+a .text-primary {
+  color: #fed136!important 
+}
+
+a:hover .text-primary {
+  color: #fdba00!important 
+}
+
 h2,
 h3,
 h4,
@@ -78,10 +85,6 @@ img::selection {
   background: 0 0
 }
 
-img::-moz-selection {
-  background: 0 0
-}
-
 .btn {
   font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700
@@ -104,8 +107,8 @@ img::-moz-selection {
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover {
-  background-color: #fec810!important;
-  border-color: #fec810!important;
+  background-color: #fdba00!important;
+  border-color: #fdba00!important;
   color: #fff
 }
 
@@ -569,7 +572,6 @@ section#services p.text-muted{
 }
 
 section#prices {
-  background: #ffffff;
   background: linear-gradient(to right, rgb(250, 250, 250), rgb(224, 222, 222));
 }
 

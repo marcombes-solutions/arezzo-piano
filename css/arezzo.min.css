@@ -642,3 +642,11 @@ section#contact a {
    color: #ece362
  }
  
+
+.darkhlink a {
+  color: #947a25
+ }
+ 
+.darkhlink a:hover {
+   color: #b4461b
+ }

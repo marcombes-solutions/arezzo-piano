@@ -62,14 +62,26 @@
     </div>
   </header>
 
+  <!--cookies-->
+  <section class="cookies-eu-banner" id="cookies-eu-banner" style="display: none;">
+    <div class="container">
+      <div class="text-center">
+        By continuing your visit to this site, you accept the use of cookies by Google Analytics to make visits statistics.
+        <a href="confidentialite.html" id="cookies-eu-more">Read more</a><br>
+        <button  class="btn btn-primary btn-sm " id="cookies-eu-reject">Reject</button>
+        <button  class="btn btn-primary btn-sm " id="cookies-eu-accept">Accept</button>
+      </div>
+    </div>
+  </section>
+
   <!--foot-->
   <footer class="footer">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-md-4">
+        <div class="col-md-5">
           <span class="copyright">Copyright &copy; Arezzo Piano 2020</span>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-2">
           <ul class="list-inline social-buttons">
             <li class="list-inline-item">
               <a href="https://www.facebook.com/AccordeurdePianoArezzo/">
@@ -78,14 +90,11 @@
             </li>
           </ul>
         </div>
-        <div class="col-md-4 darkhlink">
+        <div class="col-md-5 darkhlink">
           <ul class="list-inline quicklinks">
-            <li class="list-inline-item">
-              <a href="legal.html">Mentions Légales</a>
-            </li>
-            <li class="list-inline-item">
-              <a href="confidentialite.html">Confidentialité</a>
-            </li>
+            <li class="list-inline-item"><a href="legal.html">Mentions Légales</a></li>
+            <li class="list-inline-item"><a href="confidentialite.html">Confidentialité</a></li>
+            <li class="list-inline-item"><span id="cookies-eu-state"></span></li>
           </ul>
         </div>
       </div>
@@ -106,6 +115,9 @@
   <!-- Lazy sizes -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js"></script>
 
+  <!-- Cookies banner -->
+  <script src="vendor/bower/cookies-eu-banner.js"></script>
+  
   <!-- Script might be disabled -->
   <noscript>Your browser does not support JavaScript!</noscript>
 

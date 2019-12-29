@@ -94,6 +94,10 @@ img::selection {
   padding: 10px 30px
 }
 
+.btn-sm {
+  padding: 5px 10px
+}
+
 .btn-xl {
   font-size: 18px;
   padding: 15px 35px
@@ -649,4 +653,12 @@ section#contact a {
  
 .darkhlink a:hover {
    color: #b4461b
+ }
+
+ .cookies-eu-banner {
+  margin-top: -1.0rem;
+  margin-bottom: -.25rem;
+  color: #faf9f6;
+   background-color: rgb(36, 32, 32);
+   padding: 10px 0
  }

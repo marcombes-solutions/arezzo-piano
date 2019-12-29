@@ -54,3 +54,5 @@ TODO Change links with proper domain
 TODO Something not right with from button after submit
 
 TODO Debug errors showing on chrome dev tools
+
+TODO Adde Cookies banner throughout

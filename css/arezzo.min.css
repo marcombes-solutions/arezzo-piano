@@ -9,6 +9,7 @@ body {
   overflow-x: hidden;
  /* font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'*/
   font-family: refrigerator-deluxe, sans-serif;
+  font-size: 1.2em;
 }
 
 p {
@@ -16,7 +17,7 @@ p {
 }
 
 a {
- color: #fed136
+ color: #fdba00
 }
 
 a:hover {
@@ -24,15 +25,15 @@ a:hover {
 }
 
 .text-primary {
-  color: #fed136!important 
+  color: #fdba00!important 
 }
 
 a .text-primary {
-  color: #fed136!important 
+  color: #fdba00!important 
 }
 
 a:hover .text-primary {
-  color: #fdba00!important 
+  color: #fc9b09!important 
 }
 
 h2,
@@ -51,17 +52,19 @@ h6 {
 }
 
 .psection h2.section-heading {
-  font-size: 40px;
+  font-size: 2em;
   margin-top: 0;
-  margin-bottom: 15px
+  margin-bottom: 15px;
+  letter-spacing: 0.08em;
 }
 
 .psection h3.section-subheading {
-  font-size: 16px;
+  font-size: 1.2em;
   font-weight: 400;
   font-style: italic;
   margin-bottom: 75px;
   text-transform: none;
+  letter-spacing: 0.08em;
 /*  font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'*/
   font-family: refrigerator-deluxe, sans-serif;
 }
@@ -77,12 +80,12 @@ section {
 }
 
 ::-moz-selection {
-  background: #fed136;
+  background: #fdba00;
   text-shadow: none
 }
 
 ::selection {
-  background: #fed136;
+  background: #fdba00;
   text-shadow: none
 }
 
@@ -96,9 +99,10 @@ img::selection {
 
 .btn {
 /*  font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';*/
-font-family: refrigerator-deluxe, sans-serif;
-
-  font-weight: 700
+  font-family: refrigerator-deluxe, sans-serif;
+  letter-spacing: 0.12em;
+  font-weight: 700;
+  font-size: 1.2em;
 }
 
 .btn-md {
@@ -115,21 +119,21 @@ font-family: refrigerator-deluxe, sans-serif;
 }
 
 .btn-primary {
-  background-color: #fed136;
-  border-color: #fed136
+  background-color: #fdba00;
+  border-color: #fdba00
 }
 
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover {
-  background-color: #fdba00!important;
-  border-color: #fdba00!important;
+  background-color: #fc9b09!important;
+  border-color: #fc9b09!important;
   color: #fff
 }
 
 .btn-primary:active,
 .btn-primary:focus {
-  box-shadow: 0 0 0 .2rem #d39c06!important
+  box-shadow: 0 0 0 .2rem #d37306!important
 }
 
 #mainNav {
@@ -137,20 +141,21 @@ font-family: refrigerator-deluxe, sans-serif;
 }
 
 #mainNav .navbar-toggler {
-  font-size: 12px;
+  font-size: 0.8em;
   right: 0;
   padding: 13px;
   text-transform: uppercase;
   color: #fff;
   border: 0;
-  background-color: #fed136;
+  background-color: #fdba00;
   /*font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'*/
   font-family: refrigerator-deluxe, sans-serif;
+  letter-spacing: 0.15em;
 
 }
 
 #mainNav .navbar-brand {
-  color: #fed136;
+  color: #fdba00;
   font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
 }
 
@@ -158,14 +163,14 @@ font-family: refrigerator-deluxe, sans-serif;
 #mainNav .navbar-brand:active,
 #mainNav .navbar-brand:focus,
 #mainNav .navbar-brand:hover {
-  color: #fec503
+  color: #fc9b09
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-  font-size: 90%;
+  font-size: 1.1em;
   font-weight: 400;
   padding: .75em 0;
-  letter-spacing: 1px;
+  letter-spacing: 0.15em;
   color: #fff;
   /*font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'*/
   font-family: refrigerator-deluxe, sans-serif;
@@ -174,7 +179,7 @@ font-family: refrigerator-deluxe, sans-serif;
 
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136
+  color: #fc9b09
 }
 
 @media (min-width:768px) {
@@ -232,10 +237,8 @@ header.masthead .intro-text {
 
 header.masthead .intro-text .intro-lead-in {
   font-size: 40px;
-  font-style: italic;
   line-height: 35px;
   margin-bottom: 25px;
-  /*font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'*/
   font-family: refrigerator-deluxe, sans-serif;
 
 }
@@ -273,7 +276,6 @@ header.masthead .intro-text .intro-btn {
   }
   header.masthead .intro-text .intro-lead-in {
       font-size: 45px;
-      font-style: italic;
       line-height: 40px;
       margin-bottom: 25px;
       /*font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'*/
@@ -313,7 +315,17 @@ font-family: refrigerator-deluxe, sans-serif;
 }
 
 .service-card {
-  padding-bottom: 70px
+  margin-left: 0.1em;
+  margin-right: 0.1em;
+  margin-top: 0.1em;
+  margin-bottom: 0.25em;
+  padding-top: 1em;
+  padding-bottom: 1.5em;
+  background-color: #f4f6f8;
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
 }
 
 .contact-heading {
@@ -388,7 +400,7 @@ font-family: refrigerator-deluxe, sans-serif;
   color: #fff;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #fed136
+  background-color: #fdba00
 }
 
 .timeline>li .timeline-image h4 {
@@ -503,7 +515,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-  border-color: #fed136;
+  border-color: #fdba00;
   box-shadow: none
 }
 
@@ -595,7 +607,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:active,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
-  background-color: #fed136
+  background-color: #fdba00
 }
 
 @media only screen and (min-width: 768px) {
@@ -630,33 +642,34 @@ section#prices hr {
   margin: 1.5rem 0;
 }
 
-.section#prices .card-title {
+.psection#prices .card-title {
   margin: 0.5rem 0;
-  font-size: 0.9rem;
+  font-size: 1.5rem;
   letter-spacing: .1rem;
   font-weight: bold;
 }
 
-section#prices .card-price {
+.psection#prices .card-price {
   font-size: 2rem;
   margin: 0;
+  opacity: 0.8;
 }
 
-section#prices .card-price .period {
-  font-size: 0.8rem;
+.psection#prices .card-price .period {
+  font-size: 1.0rem;
   opacity: 0.6;
 }
 
-section#prices .card-price .euro {
+.psection#prices .card-price .euro {
   font-size: 1.5rem;
   opacity: 0.6;
 }
 
-section#prices ul li {
+.psection#prices ul li {
   margin-bottom: 1rem;
 }
 
-section#prices .text-muted {
+.psection#prices .text-muted {
   opacity: 0.7;
 }
 

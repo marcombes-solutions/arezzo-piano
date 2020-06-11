@@ -1,9 +1,14 @@
 /* TODO Minify later */
+@import url(//db.onlinewebfonts.com/c/5c39bb378bdd6e843232695cab381561?family=BravissimaScriptW00-Reg);
 
 @font-face {
   font-family: refrigerator-deluxe;
   src: url(../vendor/Refrigerator-Deluxe-Font-Family/RefrigeratorDeluxe.otf);
 }
+
+@font-face {font-family: "BravissimaScriptW00-Reg"; 
+  src: url("//db.onlinewebfonts.com/t/5c39bb378bdd6e843232695cab381561.eot"); src: url("//db.onlinewebfonts.com/t/5c39bb378bdd6e843232695cab381561.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/5c39bb378bdd6e843232695cab381561.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/5c39bb378bdd6e843232695cab381561.woff") format("woff"), url("//db.onlinewebfonts.com/t/5c39bb378bdd6e843232695cab381561.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/5c39bb378bdd6e843232695cab381561.svg#BravissimaScriptW00-Reg") format("svg");
+ }
 
 body {
   overflow-x: hidden;
@@ -165,7 +170,8 @@ img::selection {
 
 #mainNav .navbar-brand {
   color: #fdba00;
-  font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
+  font-family: BravissimaScriptW00-Reg, sans-serif;
+  /*'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'*/
 }
 
 #mainNav .navbar-brand.active,
@@ -248,7 +254,7 @@ header.masthead .intro-text .intro-lead-in {
   font-size: 40px;
   line-height: 35px;
   margin-bottom: 25px;
-  font-family: refrigerator-deluxe, sans-serif;
+  font-family: BravissimaScriptW00-Reg, sans-serif;
 
 }
 
@@ -284,11 +290,11 @@ header.masthead .intro-text .intro-btn {
       padding-bottom: 100px
   }
   header.masthead .intro-text .intro-lead-in {
-      font-size: 45px;
+      font-size: 4em;
       line-height: 40px;
-      margin-bottom: 25px;
-      /*font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'*/
-      font-family: refrigerator-deluxe, sans-serif;
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+      font-family: BravissimaScriptW00-Reg, sans-serif;
 
     }
   header.masthead .intro-text .intro-heading {

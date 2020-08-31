@@ -7,14 +7,18 @@
 }
 
 @font-face {font-family: "BravissimaScriptW00-Reg"; 
-  src: url("//db.onlinewebfonts.com/t/5c39bb378bdd6e843232695cab381561.eot"); src: url("//db.onlinewebfonts.com/t/5c39bb378bdd6e843232695cab381561.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/5c39bb378bdd6e843232695cab381561.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/5c39bb378bdd6e843232695cab381561.woff") format("woff"), url("//db.onlinewebfonts.com/t/5c39bb378bdd6e843232695cab381561.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/5c39bb378bdd6e843232695cab381561.svg#BravissimaScriptW00-Reg") format("svg");
+  src: url("vendor/BravissimaScript/5c39bb378bdd6e843232695cab381561.eot"),
+       url("vendor/BravissimaScript/5c39bb378bdd6e843232695cab381561.woff2") format("woff2"), 
+       url("vendor/BravissimaScript/5c39bb378bdd6e843232695cab381561.woff") format("woff"), 
+       url("vendor/BravissimaScript/5c39bb378bdd6e843232695cab381561.ttf") format("truetype"), 
+       url("vendor/BravissimaScript/5c39bb378bdd6e843232695cab381561.svg") format("svg");
  }
 
 body {
   overflow-x: hidden;
  /* font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'*/
   font-family: refrigerator-deluxe, sans-serif;
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
 
 p {
@@ -182,7 +186,7 @@ img::selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-  font-size: 1.1em;
+  font-size: 1.0em;
   font-weight: 400;
   padding: .75em 0;
   letter-spacing: 0.15em;
@@ -646,7 +650,7 @@ section#prices {
   background: linear-gradient(to right, rgb(250, 250, 250), rgb(224, 222, 222));
 }
 
-section#prices .card {
+ .card {
   border: none;
   border-radius: 1rem;
   transition: all 0.2s;
@@ -657,25 +661,25 @@ section#prices hr {
   margin: 1.5rem 0;
 }
 
-.psection#prices .card-title {
+ .card-title {
   margin: 0.5rem 0;
   font-size: 1.5rem;
   letter-spacing: .1rem;
   font-weight: bold;
 }
 
-.psection#prices .card-price {
+ .card-price {
   font-size: 2rem;
   margin: 0;
   opacity: 0.8;
 }
 
-.psection#prices .card-price .period {
+ .card-price .period {
   font-size: 1.0rem;
   opacity: 0.6;
 }
 
-.psection#prices .card-price .euro {
+ .card-price .euro {
   font-size: 1.5rem;
   opacity: 0.6;
 }

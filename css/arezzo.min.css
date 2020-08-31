@@ -1,17 +1,17 @@
 /* TODO Minify later */
-@import url(//db.onlinewebfonts.com/c/5c39bb378bdd6e843232695cab381561?family=BravissimaScriptW00-Reg);
+@import url(//db.onlinewebfonts.com/c/5c39bb378bdd6e843232695cab381561?family=bravissima-script);
 
 @font-face {
   font-family: refrigerator-deluxe;
   src: url(../vendor/Refrigerator-Deluxe-Font-Family/RefrigeratorDeluxe.otf);
 }
 
-@font-face {font-family: "BravissimaScriptW00-Reg"; 
-  src: url("vendor/BravissimaScript/5c39bb378bdd6e843232695cab381561.eot"),
-       url("vendor/BravissimaScript/5c39bb378bdd6e843232695cab381561.woff2") format("woff2"), 
-       url("vendor/BravissimaScript/5c39bb378bdd6e843232695cab381561.woff") format("woff"), 
-       url("vendor/BravissimaScript/5c39bb378bdd6e843232695cab381561.ttf") format("truetype"), 
-       url("vendor/BravissimaScript/5c39bb378bdd6e843232695cab381561.svg") format("svg");
+@font-face {font-family: bravissima-script; 
+  src: url(../vendor/BravissimaScript/5c39bb378bdd6e843232695cab381561.eot),
+       url(../vendor/BravissimaScript/5c39bb378bdd6e843232695cab381561.woff2) format("woff2"), 
+       url(../vendor/BravissimaScript/5c39bb378bdd6e843232695cab381561.woff) format("woff"), 
+       url(../vendor/BravissimaScript/5c39bb378bdd6e843232695cab381561.ttf) format("truetype"), 
+       url(../vendor/BravissimaScript/5c39bb378bdd6e843232695cab381561.svg) format("svg");
  }
 
 body {
@@ -174,7 +174,7 @@ img::selection {
 
 #mainNav .navbar-brand {
   color: #fdba00;
-  font-family: BravissimaScriptW00-Reg, sans-serif;
+  font-family: bravissima-script, sans-serif;
   /*'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'*/
 }
 
@@ -258,7 +258,7 @@ header.masthead .intro-text .intro-lead-in {
   font-size: 40px;
   line-height: 35px;
   margin-bottom: 25px;
-  font-family: BravissimaScriptW00-Reg, sans-serif;
+  font-family: bravissima-script, sans-serif;
 
 }
 
@@ -298,7 +298,7 @@ header.masthead .intro-text .intro-btn {
       line-height: 40px;
       margin-top: 0.5em;
       margin-bottom: 0.5em;
-      font-family: BravissimaScriptW00-Reg, sans-serif;
+      font-family: bravissima-script, sans-serif;
 
     }
   header.masthead .intro-text .intro-heading {
